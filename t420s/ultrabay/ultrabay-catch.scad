@@ -7,9 +7,9 @@ difference() {
     width = 5.85;
     translate() {
         cube([21, 16.1, material_strength]);
-        translate([21 - 2.5 - width, 2, 0]) scale([1, 1, 2.1]) slot(length, width);
+        translate([21 - 3 - width, 2, 0]) scale([1, 1, 2.1]) slot(length, width);
     };
-    translate([21 - 2.5 - width, 2, 0]) scale([1, 1, 2.1]) translate([rim_strength, rim_strength, 0]) slot(length - 2 * rim_strength, width - 2 * rim_strength);
+    translate([21 - 3 - width, 2, 0]) scale([1, 1, 2.1]) translate([rim_strength, rim_strength, 0]) slot(length - 2 * rim_strength, width - 2 * rim_strength);
 };
 
 level_actuator_material_strength = 2.7;
