@@ -60,7 +60,7 @@ translate([4.4, -1.95, 0]) {
     cube([4.1, 1.95, material_strength]);
     translate([4.1, -2.5, 0]) {
         difference() {
-            cube([4.8, 2.5 + 1.95, material_strength * 2]);
+            cube([4.0, 2.5 + 1.95, material_strength * 2]);
             translate([1, 0, 0]) rotate([180, 0, 45]) translate([0, 0, -material_strength * 2]) cube([10, 10, material_strength * 2]);
         };
     };
